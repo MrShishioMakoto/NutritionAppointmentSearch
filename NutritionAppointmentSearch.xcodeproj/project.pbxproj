@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C938C5D22D6A44C700557AFD /* NutritionAppointmentSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5D12D6A44C700557AFD /* NutritionAppointmentSearchApp.swift */; };
+		C938C5D42D6A44C700557AFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5D32D6A44C700557AFD /* ContentView.swift */; };
+		C938C5D62D6A44CB00557AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C938C5D52D6A44CB00557AFD /* Assets.xcassets */; };
+		C938C5D92D6A44CB00557AFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C938C5D82D6A44CB00557AFD /* Preview Assets.xcassets */; };
+		C938C5E32D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5E22D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift */; };
+		C938C5ED2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5EC2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift */; };
+		C938C5EF2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5EE2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C938C5DF2D6A44CB00557AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C938C5C62D6A44C700557AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C938C5CD2D6A44C700557AFD;
+			remoteInfo = NutritionAppointmentSearch;
+		};
+		C938C5E92D6A44CB00557AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C938C5C62D6A44C700557AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C938C5CD2D6A44C700557AFD;
+			remoteInfo = NutritionAppointmentSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C938C5CE2D6A44C700557AFD /* NutritionAppointmentSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionAppointmentSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C938C5D12D6A44C700557AFD /* NutritionAppointmentSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchApp.swift; sourceTree = "<group>"; };
+		C938C5D32D6A44C700557AFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C938C5D52D6A44CB00557AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C938C5D82D6A44CB00557AFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C938C5DE2D6A44CB00557AFD /* NutritionAppointmentSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionAppointmentSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C938C5E22D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchTests.swift; sourceTree = "<group>"; };
+		C938C5E82D6A44CB00557AFD /* NutritionAppointmentSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionAppointmentSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C938C5EC2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchUITests.swift; sourceTree = "<group>"; };
+		C938C5EE2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C938C5CB2D6A44C700557AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C938C5DB2D6A44CB00557AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C938C5E52D6A44CB00557AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C938C5C52D6A44C700557AFD = {
+			isa = PBXGroup;
+			children = (
+				C938C5D02D6A44C700557AFD /* NutritionAppointmentSearch */,
+				C938C5E12D6A44CB00557AFD /* NutritionAppointmentSearchTests */,
+				C938C5EB2D6A44CB00557AFD /* NutritionAppointmentSearchUITests */,
+				C938C5CF2D6A44C700557AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C938C5CF2D6A44C700557AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C938C5CE2D6A44C700557AFD /* NutritionAppointmentSearch.app */,
+				C938C5DE2D6A44CB00557AFD /* NutritionAppointmentSearchTests.xctest */,
+				C938C5E82D6A44CB00557AFD /* NutritionAppointmentSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C938C5D02D6A44C700557AFD /* NutritionAppointmentSearch */ = {
+			isa = PBXGroup;
+			children = (
+				C938C5D12D6A44C700557AFD /* NutritionAppointmentSearchApp.swift */,
+				C938C5D32D6A44C700557AFD /* ContentView.swift */,
+				C938C5D52D6A44CB00557AFD /* Assets.xcassets */,
+				C938C5D72D6A44CB00557AFD /* Preview Content */,
+			);
+			path = NutritionAppointmentSearch;
+			sourceTree = "<group>";
+		};
+		C938C5D72D6A44CB00557AFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C938C5D82D6A44CB00557AFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C938C5E12D6A44CB00557AFD /* NutritionAppointmentSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C938C5E22D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift */,
+			);
+			path = NutritionAppointmentSearchTests;
+			sourceTree = "<group>";
+		};
+		C938C5EB2D6A44CB00557AFD /* NutritionAppointmentSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C938C5EC2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift */,
+				C938C5EE2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift */,
+			);
+			path = NutritionAppointmentSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C938C5CD2D6A44C700557AFD /* NutritionAppointmentSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C938C5F22D6A44CB00557AFD /* Build configuration list for PBXNativeTarget "NutritionAppointmentSearch" */;
+			buildPhases = (
+				C938C5CA2D6A44C700557AFD /* Sources */,
+				C938C5CB2D6A44C700557AFD /* Frameworks */,
+				C938C5CC2D6A44C700557AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutritionAppointmentSearch;
+			productName = NutritionAppointmentSearch;
+			productReference = C938C5CE2D6A44C700557AFD /* NutritionAppointmentSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C938C5DD2D6A44CB00557AFD /* NutritionAppointmentSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C938C5F52D6A44CB00557AFD /* Build configuration list for PBXNativeTarget "NutritionAppointmentSearchTests" */;
+			buildPhases = (
+				C938C5DA2D6A44CB00557AFD /* Sources */,
+				C938C5DB2D6A44CB00557AFD /* Frameworks */,
+				C938C5DC2D6A44CB00557AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C938C5E02D6A44CB00557AFD /* PBXTargetDependency */,
+			);
+			name = NutritionAppointmentSearchTests;
+			productName = NutritionAppointmentSearchTests;
+			productReference = C938C5DE2D6A44CB00557AFD /* NutritionAppointmentSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C938C5E72D6A44CB00557AFD /* NutritionAppointmentSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C938C5F82D6A44CB00557AFD /* Build configuration list for PBXNativeTarget "NutritionAppointmentSearchUITests" */;
+			buildPhases = (
+				C938C5E42D6A44CB00557AFD /* Sources */,
+				C938C5E52D6A44CB00557AFD /* Frameworks */,
+				C938C5E62D6A44CB00557AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C938C5EA2D6A44CB00557AFD /* PBXTargetDependency */,
+			);
+			name = NutritionAppointmentSearchUITests;
+			productName = NutritionAppointmentSearchUITests;
+			productReference = C938C5E82D6A44CB00557AFD /* NutritionAppointmentSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C938C5C62D6A44C700557AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C938C5CD2D6A44C700557AFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C938C5DD2D6A44CB00557AFD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C938C5CD2D6A44C700557AFD;
+					};
+					C938C5E72D6A44CB00557AFD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C938C5CD2D6A44C700557AFD;
+					};
+				};
+			};
+			buildConfigurationList = C938C5C92D6A44C700557AFD /* Build configuration list for PBXProject "NutritionAppointmentSearch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C938C5C52D6A44C700557AFD;
+			productRefGroup = C938C5CF2D6A44C700557AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C938C5CD2D6A44C700557AFD /* NutritionAppointmentSearch */,
+				C938C5DD2D6A44CB00557AFD /* NutritionAppointmentSearchTests */,
+				C938C5E72D6A44CB00557AFD /* NutritionAppointmentSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C938C5CC2D6A44C700557AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C938C5D92D6A44CB00557AFD /* Preview Assets.xcassets in Resources */,
+				C938C5D62D6A44CB00557AFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C938C5DC2D6A44CB00557AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C938C5E62D6A44CB00557AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C938C5CA2D6A44C700557AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C938C5D42D6A44C700557AFD /* ContentView.swift in Sources */,
+				C938C5D22D6A44C700557AFD /* NutritionAppointmentSearchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C938C5DA2D6A44CB00557AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C938C5E32D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C938C5E42D6A44CB00557AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C938C5ED2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift in Sources */,
+				C938C5EF2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C938C5E02D6A44CB00557AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C938C5CD2D6A44C700557AFD /* NutritionAppointmentSearch */;
+			targetProxy = C938C5DF2D6A44CB00557AFD /* PBXContainerItemProxy */;
+		};
+		C938C5EA2D6A44CB00557AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C938C5CD2D6A44C700557AFD /* NutritionAppointmentSearch */;
+			targetProxy = C938C5E92D6A44CB00557AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C938C5F02D6A44CB00557AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C938C5F12D6A44CB00557AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C938C5F32D6A44CB00557AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritionAppointmentSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = X4637C63ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MrShishioMakoto.NutritionAppointmentSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C938C5F42D6A44CB00557AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritionAppointmentSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = X4637C63ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MrShishioMakoto.NutritionAppointmentSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C938C5F62D6A44CB00557AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4637C63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MrShishioMakoto.NutritionAppointmentSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritionAppointmentSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutritionAppointmentSearch";
+			};
+			name = Debug;
+		};
+		C938C5F72D6A44CB00557AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4637C63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MrShishioMakoto.NutritionAppointmentSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritionAppointmentSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutritionAppointmentSearch";
+			};
+			name = Release;
+		};
+		C938C5F92D6A44CB00557AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4637C63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MrShishioMakoto.NutritionAppointmentSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritionAppointmentSearch;
+			};
+			name = Debug;
+		};
+		C938C5FA2D6A44CB00557AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4637C63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MrShishioMakoto.NutritionAppointmentSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritionAppointmentSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C938C5C92D6A44C700557AFD /* Build configuration list for PBXProject "NutritionAppointmentSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C938C5F02D6A44CB00557AFD /* Debug */,
+				C938C5F12D6A44CB00557AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C938C5F22D6A44CB00557AFD /* Build configuration list for PBXNativeTarget "NutritionAppointmentSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C938C5F32D6A44CB00557AFD /* Debug */,
+				C938C5F42D6A44CB00557AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C938C5F52D6A44CB00557AFD /* Build configuration list for PBXNativeTarget "NutritionAppointmentSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C938C5F62D6A44CB00557AFD /* Debug */,
+				C938C5F72D6A44CB00557AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C938C5F82D6A44CB00557AFD /* Build configuration list for PBXNativeTarget "NutritionAppointmentSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C938C5F92D6A44CB00557AFD /* Debug */,
+				C938C5FA2D6A44CB00557AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C938C5C62D6A44C700557AFD /* Project object */;
+}
