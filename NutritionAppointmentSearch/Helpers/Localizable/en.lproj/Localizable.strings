@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  NutritionAppointmentSearch
+
+  Created by Gonçalo Almeida on 24/02/2025.
+  
+*/
+
+"nutrition.navigation.professionals.title" = "Nutrition Professionals";
+"nutrition.navigation.profile.details.title" = "Profile Details";
+
+"nutrition.errors.invalid.url" = "Invalid URL";
+"nutrition.errors.invalid.response" = "Invalid response from server";
+"nutrition.errors.decoding.error" = "Failed to decode data";
+"nutrition.errors.unknown" = "An unknown error occurred.";
+
+"nutrition.professional.list.sort.by" = "Sort by:";
+"nutrition.professional.list.sort.best_match" = "Best for you";
+"nutrition.professional.list.sort.rating" = "Rating";
+"nutrition.professional.list.sort.most_popular" = "Most Popular";
+
+"nutrition.professional.detail.languages.label" = "Languages:";
+"nutrition.professional.detail.expertise.label" = "Expertise:";
+"nutrition.professional.detail.about_me" = "About Me";
+"nutrition.professional.detail.show_more" = "Show More";
+"nutrition.professional.detail.show_less" = "Show Less";
+
+"nutrition.error" = "Error";
+"nutrition.ok" = "OK";

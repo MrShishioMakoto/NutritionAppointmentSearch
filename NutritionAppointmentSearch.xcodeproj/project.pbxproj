@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91AF82C2D6B77A7007503DE /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF82B2D6B77A7007503DE /* CacheManager.swift */; };
+		C91AF82F2D6B81DE007503DE /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF82E2D6B81DE007503DE /* ListViewModel.swift */; };
+		C91AF8322D6B8602007503DE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8312D6B8602007503DE /* ListView.swift */; };
+		C91AF8342D6B8949007503DE /* ProfessionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8332D6B8949007503DE /* ProfessionalView.swift */; };
+		C91AF8362D6B99E5007503DE /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8352D6B99E5007503DE /* DetailsView.swift */; };
+		C91AF8382D6B9A17007503DE /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8372D6B9A17007503DE /* DetailsViewModel.swift */; };
+		C91AF8402D6CDC33007503DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C91AF83E2D6CDC33007503DE /* Localizable.strings */; };
+		C91AF8442D6CDCFC007503DE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8432D6CDCFC007503DE /* String+Extension.swift */; };
+		C91AF8462D6CDD80007503DE /* LocalizableKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8452D6CDD80007503DE /* LocalizableKeys.swift */; };
+		C91AF8492D6CE0EC007503DE /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8482D6CE0EC007503DE /* UIConstants.swift */; };
+		C91AF84B2D6CFCC9007503DE /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF84A2D6CFCC9007503DE /* MockNetworkManager.swift */; };
+		C91AF84D2D6CFD23007503DE /* ProfessionalListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF84C2D6CFD23007503DE /* ProfessionalListViewModelTests.swift */; };
+		C91AF8502D6CFFBB007503DE /* MockProfessionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF84F2D6CFFBB007503DE /* MockProfessionals.swift */; };
+		C91AF8542D6D04F9007503DE /* ProfessionalDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8532D6D04F9007503DE /* ProfessionalDetailViewModelTests.swift */; };
+		C91AF8562D6D0665007503DE /* CacheManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AF8552D6D0665007503DE /* CacheManagerTests.swift */; };
 		C938C5D22D6A44C700557AFD /* NutritionAppointmentSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5D12D6A44C700557AFD /* NutritionAppointmentSearchApp.swift */; };
-		C938C5D42D6A44C700557AFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5D32D6A44C700557AFD /* ContentView.swift */; };
 		C938C5D62D6A44CB00557AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C938C5D52D6A44CB00557AFD /* Assets.xcassets */; };
 		C938C5D92D6A44CB00557AFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C938C5D82D6A44CB00557AFD /* Preview Assets.xcassets */; };
-		C938C5E32D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5E22D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift */; };
 		C938C5ED2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5EC2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift */; };
 		C938C5EF2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5EE2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift */; };
+		C938C5FC2D6A51A500557AFD /* Professionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5FB2D6A51A500557AFD /* Professionals.swift */; };
+		C938C6002D6A522000557AFD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C5FF2D6A522000557AFD /* NetworkManager.swift */; };
+		C938C6032D6A527900557AFD /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C6022D6A527900557AFD /* Endpoint.swift */; };
+		C938C6062D6A53CB00557AFD /* NutritionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C6052D6A53CB00557AFD /* NutritionError.swift */; };
+		C938C6082D6A55C300557AFD /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938C6072D6A55C300557AFD /* Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +52,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91AF82B2D6B77A7007503DE /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		C91AF82E2D6B81DE007503DE /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		C91AF8312D6B8602007503DE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C91AF8332D6B8949007503DE /* ProfessionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalView.swift; sourceTree = "<group>"; };
+		C91AF8352D6B99E5007503DE /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		C91AF8372D6B9A17007503DE /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		C91AF83F2D6CDC33007503DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C91AF8412D6CDC84007503DE /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C91AF8432D6CDCFC007503DE /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C91AF8452D6CDD80007503DE /* LocalizableKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableKeys.swift; sourceTree = "<group>"; };
+		C91AF8482D6CE0EC007503DE /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		C91AF84A2D6CFCC9007503DE /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		C91AF84C2D6CFD23007503DE /* ProfessionalListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalListViewModelTests.swift; sourceTree = "<group>"; };
+		C91AF84F2D6CFFBB007503DE /* MockProfessionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProfessionals.swift; sourceTree = "<group>"; };
+		C91AF8532D6D04F9007503DE /* ProfessionalDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalDetailViewModelTests.swift; sourceTree = "<group>"; };
+		C91AF8552D6D0665007503DE /* CacheManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManagerTests.swift; sourceTree = "<group>"; };
 		C938C5CE2D6A44C700557AFD /* NutritionAppointmentSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionAppointmentSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C938C5D12D6A44C700557AFD /* NutritionAppointmentSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchApp.swift; sourceTree = "<group>"; };
-		C938C5D32D6A44C700557AFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C938C5D52D6A44CB00557AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C938C5D82D6A44CB00557AFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C938C5DE2D6A44CB00557AFD /* NutritionAppointmentSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionAppointmentSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C938C5E22D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchTests.swift; sourceTree = "<group>"; };
 		C938C5E82D6A44CB00557AFD /* NutritionAppointmentSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionAppointmentSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C938C5EC2D6A44CB00557AFD /* NutritionAppointmentSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchUITests.swift; sourceTree = "<group>"; };
 		C938C5EE2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppointmentSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C938C5FB2D6A51A500557AFD /* Professionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professionals.swift; sourceTree = "<group>"; };
+		C938C5FF2D6A522000557AFD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C938C6022D6A527900557AFD /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		C938C6052D6A53CB00557AFD /* NutritionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionError.swift; sourceTree = "<group>"; };
+		C938C6072D6A55C300557AFD /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +108,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C91AF82A2D6B7797007503DE /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF82B2D6B77A7007503DE /* CacheManager.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		C91AF82D2D6B81C9007503DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF82E2D6B81DE007503DE /* ListViewModel.swift */,
+				C91AF8372D6B9A17007503DE /* DetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C91AF8302D6B85D3007503DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF8312D6B8602007503DE /* ListView.swift */,
+				C91AF8332D6B8949007503DE /* ProfessionalView.swift */,
+				C91AF8352D6B99E5007503DE /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C91AF83C2D6CDC12007503DE /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				C938C6052D6A53CB00557AFD /* NutritionError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		C91AF83D2D6CDC1B007503DE /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF8452D6CDD80007503DE /* LocalizableKeys.swift */,
+				C91AF83E2D6CDC33007503DE /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		C91AF8422D6CDCEA007503DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF8432D6CDCFC007503DE /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C91AF8472D6CE0E2007503DE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF8482D6CE0EC007503DE /* UIConstants.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C91AF84E2D6CFFA5007503DE /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF84A2D6CFCC9007503DE /* MockNetworkManager.swift */,
+				C91AF84F2D6CFFBB007503DE /* MockProfessionals.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		C938C5C52D6A44C700557AFD = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +201,13 @@
 			isa = PBXGroup;
 			children = (
 				C938C5D12D6A44C700557AFD /* NutritionAppointmentSearchApp.swift */,
-				C938C5D32D6A44C700557AFD /* ContentView.swift */,
 				C938C5D52D6A44CB00557AFD /* Assets.xcassets */,
+				C938C5FD2D6A51A900557AFD /* Model */,
+				C91AF82D2D6B81C9007503DE /* ViewModel */,
+				C91AF8302D6B85D3007503DE /* View */,
+				C938C5FE2D6A520F00557AFD /* Network */,
+				C91AF82A2D6B7797007503DE /* Cache */,
+				C938C6042D6A53BE00557AFD /* Helpers */,
 				C938C5D72D6A44CB00557AFD /* Preview Content */,
 			);
 			path = NutritionAppointmentSearch;
@@ -113,7 +224,10 @@
 		C938C5E12D6A44CB00557AFD /* NutritionAppointmentSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				C938C5E22D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift */,
+				C91AF84E2D6CFFA5007503DE /* Mock */,
+				C91AF84C2D6CFD23007503DE /* ProfessionalListViewModelTests.swift */,
+				C91AF8532D6D04F9007503DE /* ProfessionalDetailViewModelTests.swift */,
+				C91AF8552D6D0665007503DE /* CacheManagerTests.swift */,
 			);
 			path = NutritionAppointmentSearchTests;
 			sourceTree = "<group>";
@@ -125,6 +239,43 @@
 				C938C5EE2D6A44CB00557AFD /* NutritionAppointmentSearchUITestsLaunchTests.swift */,
 			);
 			path = NutritionAppointmentSearchUITests;
+			sourceTree = "<group>";
+		};
+		C938C5FD2D6A51A900557AFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C938C5FB2D6A51A500557AFD /* Professionals.swift */,
+				C938C6072D6A55C300557AFD /* Details.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C938C5FE2D6A520F00557AFD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C938C6012D6A526C00557AFD /* Endpoint */,
+				C938C5FF2D6A522000557AFD /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C938C6012D6A526C00557AFD /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				C938C6022D6A527900557AFD /* Endpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		C938C6042D6A53BE00557AFD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C91AF8472D6CE0E2007503DE /* UI */,
+				C91AF8422D6CDCEA007503DE /* Extension */,
+				C91AF83D2D6CDC1B007503DE /* Localizable */,
+				C91AF83C2D6CDC12007503DE /* Error */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +294,8 @@
 			dependencies = (
 			);
 			name = NutritionAppointmentSearch;
+			packageProductDependencies = (
+			);
 			productName = NutritionAppointmentSearch;
 			productReference = C938C5CE2D6A44C700557AFD /* NutritionAppointmentSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -213,8 +366,11 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-PT",
 			);
 			mainGroup = C938C5C52D6A44C700557AFD;
+			packageReferences = (
+			);
 			productRefGroup = C938C5CF2D6A44C700557AFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C938C5D92D6A44CB00557AFD /* Preview Assets.xcassets in Resources */,
+				C91AF8402D6CDC33007503DE /* Localizable.strings in Resources */,
 				C938C5D62D6A44CB00557AFD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +414,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C938C5D42D6A44C700557AFD /* ContentView.swift in Sources */,
+				C91AF8342D6B8949007503DE /* ProfessionalView.swift in Sources */,
+				C938C6002D6A522000557AFD /* NetworkManager.swift in Sources */,
+				C91AF8492D6CE0EC007503DE /* UIConstants.swift in Sources */,
+				C938C5FC2D6A51A500557AFD /* Professionals.swift in Sources */,
+				C91AF8322D6B8602007503DE /* ListView.swift in Sources */,
 				C938C5D22D6A44C700557AFD /* NutritionAppointmentSearchApp.swift in Sources */,
+				C91AF8362D6B99E5007503DE /* DetailsView.swift in Sources */,
+				C91AF8442D6CDCFC007503DE /* String+Extension.swift in Sources */,
+				C91AF82C2D6B77A7007503DE /* CacheManager.swift in Sources */,
+				C938C6032D6A527900557AFD /* Endpoint.swift in Sources */,
+				C938C6082D6A55C300557AFD /* Details.swift in Sources */,
+				C938C6062D6A53CB00557AFD /* NutritionError.swift in Sources */,
+				C91AF8382D6B9A17007503DE /* DetailsViewModel.swift in Sources */,
+				C91AF8462D6CDD80007503DE /* LocalizableKeys.swift in Sources */,
+				C91AF82F2D6B81DE007503DE /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +436,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C938C5E32D6A44CB00557AFD /* NutritionAppointmentSearchTests.swift in Sources */,
+				C91AF8542D6D04F9007503DE /* ProfessionalDetailViewModelTests.swift in Sources */,
+				C91AF84B2D6CFCC9007503DE /* MockNetworkManager.swift in Sources */,
+				C91AF84D2D6CFD23007503DE /* ProfessionalListViewModelTests.swift in Sources */,
+				C91AF8562D6D0665007503DE /* CacheManagerTests.swift in Sources */,
+				C91AF8502D6CFFBB007503DE /* MockProfessionals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +468,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		C91AF83E2D6CDC33007503DE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91AF83F2D6CDC33007503DE /* en */,
+				C91AF8412D6CDC84007503DE /* pt-PT */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		C938C5F02D6A44CB00557AFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -363,6 +550,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
